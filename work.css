@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:beige;
+    margin: 0px;
+}
+
+.name{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 12px;
+}
+figcaption{
+    text-align: center;
+    margin-top: 10px;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.photo2{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+nav{
+    background-color: #e5cad4;
+    font-family: Arial;
+    text-align: center;
+
+}
+nav a{
+    display: inline-block;
+    padding: 14px 16px ;
+}
+nav a:hover{
+    background-color: #cda8b8;
+    color: white;
+}
+footer{
+    background-color: #cda8b8;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    padding: 20px;
+}
+article{
+    float: left;
+    width: 28%;
+}
+aside{
+    float: right;
+    width: 60%;
+    text-align: center;
+}
+aside.card1{
+    float: right;
+    width: 29%;
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+.card{
+    background-color: white;
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.card1{
+    background-color: white;
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.games{
+    display: flex; 
+    margin: 20px;
+    padding: 30px;
+    
+    
+}
+li{
+    padding: 5px;
+}
+.photo3{
+    text-align: center;
+    background-color: brown;
+}
+iframe{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    
+}
+.picture{
+    background-color: white;
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+}
+.block{
+    background-color: azure;
+
+}
+.text{
+    font-size: 15px;
+    border-radius: 50px;
+}
+@media screen and (max-width:800px){
+    article,aside{
+        float: none;
+        width: 100%;
+    }
+    .card{
+        padding: 10px;
+        margin: 15px 0px;
+    }
+    img{
+        max-width: 100%;
+        height: 90%;
+    }
+}

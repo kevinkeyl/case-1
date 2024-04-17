@@ -14,7 +14,7 @@ body{
 }
 h3{
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
 }
 figcaption{
     text-align: center;
@@ -100,7 +100,7 @@ li{
 }
 .photo3{
     text-align: center;
-    background-color: brown;
+    background-color: rgb(42, 110, 165);
 }
 iframe{
     background-color: aliceblue;
@@ -125,6 +125,7 @@ iframe{
 .text{
     font-size: 15px;
     border-radius: 50px;
+    font-weight: bold;
 }
 @media screen and (max-width:800px){
     article,aside{
